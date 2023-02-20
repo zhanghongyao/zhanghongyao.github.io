@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Game Projects by Zhang Hongyao </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style.css">
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon_io/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon_io/favicon-16x16.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593</button>
+  <div class="header">
+    <h1>GAM250: Usagi Defense </h1>
+    <!--<p>&#169;All photos taken by me.</p> -->
+  </div>
+
+  <div class="navbar">
+    <!--<a href="#">My eResume</a>-->
+    <a href="../index.html">Game Projects</a>
+    <a href="../desproj.html">Design Projects</a>
+    <a href="#contactme" class="right">Contact Me</a>
+  </div>
+
+  <div class="row">
+    <div class="side" id="portfolio" style="max-width: 20%;">
+      <h2 style="text-decoration: underline; font-size:35px;">About Me</h2>
+      <img src="../img/me22.JPG" alt="Lilie" style="height:300px;">
+      <p style="font-size: 15px;">Hi! I am Zhang Hongyao, you can call me Lilie. <br><br>
+        I am currently a final year student at DigiPen Singapore studying Computer Science and Game
+        Design. <br><br>
+        I'm an aspiring game designer/programmer who specializes in Game AI and Character and level design.
+        I am well-versed with Unreal Engine 4 and I am able to supplement my projects with art that I drew using mainly
+        procreate and clip studio paint.
+        <br><br>
+        I am also familiar with various programming languages such as C and C++, Java and Python.
+        <br><br>
+        Aside from my skills and knowledge, I'm also a team player who can work together well with teammates,
+        a problem solver who can rise to the challenge to face difficult problems and an avid learner who likes new
+        experiences.
+      </p>
+    </div>
+    <div class="main" id="gamproj" style="width: 70%;">
+      <h2 style="text-decoration: underline;">Gam200&GAM250 : Usagi Defense </h2>
+      <!-- GAM300/350 -->
+      <div class="gam" style="display: inline-block;">
+        <h5>Fall & Spring 2020 [September 2020 - April 2021]</h5>
+        <br>
+        <div class="container1" style="float:left;">
+          <img src="../img/GAMPROJ/UsagiDefence.gif" alt="UsagiDefence" id="center" style="height:400px; max-width:100%;cursor:pointer;"
+            onclick="onClick(this)" class="modal-hover-opacity"> &nbsp;
+        </div>
+        
+        <!-- The Modal -->
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <div class="modal-content">
+            <img id="img01" style="max-width:100%">
+          </div>
+        </div>
+        <br>
+        <p style="clear: both;"><u>Game Genre:</u><br> 2D Top Down, Tower Defense</p>
+        <p><u>About:</u><br> Usagi Defense is a 2D top-down tower defense game. Evil monsters are coming through a portal to retrieve a golden carrot which was said to grant all powers. As the protector of the carrot, it is your duty to protect it from corruption.</p>
+        <p><u>Language:</u> C++ </p>
+        <p><u>Engine:</u> Custom </p>
+        <p><u>Done by:</u> Team Softlock  <br><u>Team Size:</u>  4</p>
+        <p><u>Roles & Responsibilty:</u><br>
+          <b>Main:</b> Physics Programmer, AI Programmer, Lead Artist, UI/UX Designer <br>
+        </p>
+        <h3><u>Goal</u></h3>
+        <div class="container1">
+          <img src="../img/GAMPROJ/UsagiDefence2.gif" alt="UsagiDefence2" style="height:400px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">&nbsp;
+        </div>
+        <p>The gold is to defend the golden carrot. At the start of the game, the carrot has 10 shields. Player would need to defend off
+        </p> 
+        <h3><u>Level and Mechanics Design</u></h3>
+        <div class="container1">
+          <img src="../img/GAMPROJ/UsagiDefence1.gif" alt="Sundown2" style="height:400px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">&nbsp;
+        </div>
+        <p>
+          Usagi Defense is a 2D top-down tower defense game. Alongside with other teammates, we draft out the levels before fully implementing it. <br>
+          Usagi Defense main mechanics are: <br>
+          - Different types of towers<br>
+          - Unique skills from each towers <br>
+        </p>
+        <br>
+        <h3><u>Programming</u></h3>
+        <div class="container1">
+          <img src="../img/GAMPROJ/UsagiDefence2.gif" alt="Sundown2" style="height:400px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">&nbsp;
+        </div>
+        <p>
+          I implemented <br>
+          - Enemy AI Behaviours<br>
+          - Wave system<br>
+          - Physics and collisions <br>
+        </p>
+        <br>
+      </div>
+      <!-- End of GAM300/350 -->
+    </div>
+  </div>
+  <div class="main" id="contactme">
+    <h2>Contact Me</h2>
+    <h5>Feel free to drop a message on any of my social media</h5>
+    <div class="center">
+      <a href="mailto: zhang.hongyao@hotmail.com" target="_blank"><span><img src="../img/icons/email.png"
+            style="width: 50px;"></span></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/hongyao-zhang-479281225/" target="_blank"><span><img
+            src="../img/icons/linkedin.png" style="width: 42px;"></span></a>
+    </div>
+  </div>
+  <footer> <small>Copyright &copy; 2023, Zhang Hongyao. All Rights Reserved <br>
+      <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik -
+        Flaticon</a> <br>
+      <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by
+        riajulislam - Flaticon</a></small></footer>
+
+  <script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>

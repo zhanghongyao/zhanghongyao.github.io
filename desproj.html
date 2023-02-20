@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Design Projects by Zhang Hongyao </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon_io/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="img/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593</button>
+  <div class="header">
+    <h1>Welcome to My Portfolio</h1>
+    <!--<p>&#169;All photos taken by me.</p> -->
+  </div>
+  <div class="navbar">
+    <!--<a href="#">My eResume</a>-->
+    <a href="index.html">Game Projects</a>
+    <a href="desproj.html">Design Projects</a>
+    <a href="#contactme" class="right">Contact Me</a>
+  </div>
+
+  <div class="row">
+    <div class="side" id="portfolio" style="max-width: 20%;">
+      <h2 style="text-decoration: underline; font-size:35px;">About Me</h2>
+      <img src="img/me22.JPG" alt="Lilie" style="height:300px;">
+      <p style="font-size: 15px;">Hi! I am Zhang Hongyao, you can call me Lilie. <br><br>
+        I am currently a final year student at DigiPen Singapore studying Computer Science and Game
+        Design. <br><br>
+        I'm an aspiring game designer/programmer who specializes in Game AI and Character and level design.
+        I am well-versed with Unreal Engine 4 and I am able to supplement my projects with art that I drew using mainly procreate and clip studio paint.
+        <br><br>
+        I am also familiar with various programming languages such as C and C++, Java and Python.
+        <br><br>
+        Aside from my skills and knowledge, I'm also a team player who can work together well with teammates, 
+        a problem solver who can rise to the challenge to face difficult problems and an avid learner who likes new experiences.</p>
+    </div>
+    <div class="main" id="gamproj" style="width: 70%;">
+      <h2 style="text-decoration: underline;">My Design Projects</h2>
+      <!-- GAM300/350 -->
+      <div class="gam" style="display: inline-block;">
+        <h2>DES 315 - Technology Research</h2>
+        <h5>Fall 2021 [September 2021 - December 2021]</h5>
+        <br>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/DES315.gif" alt="DES315" style="height:200px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity"> &nbsp;
+        </div>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/DES315(1).gif" alt="DES315" style="height:200px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity"> &nbsp;
+        </div>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/DES315(2).gif" alt="DES315" style="height:200px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">&nbsp;
+        </div>
+        <!-- The Modal -->
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <div class="modal-content">
+            <img id="img01" style="max-width:100%">
+          </div>
+        </div>
+        <br>
+        <p style="clear: both;"><u>About:</u><br> Building a furniture assembly program using virtual reality.</p>
+        <p></p>
+        <p><u>Team Size:</u> 3 <br>
+        <p><u>Overview:</u><br>
+          Virtual Reality (VR) creates a Virtual Environment with scenes and objects that simulates the environment in
+          real life. <br>
+          As it displays a virtual environment, VR has a large usage of fields. It creates a immersive environment that
+          makes the program innovating and enjoyable.<br>
+          Our purpose is to make use of VR and simulate the instructions given on the manual so that consumers can get
+          an understanding before actually attempting to build the furniture.<br>
+          Throughout the project, we added in visual and audio feedbacks (ref middle pic) that can assist players in
+          building as well as advance features such as hammering(ref third pic).
+        </p>
+        <p><u>Software/Hardware used:</u> <br> Oculus Rift <br> 3DS Max <br> Unreal Engine
+          <br>
+      </div>
+      <!-- End of GAM300/350 -->
+      <!-- GAM200/250 -->
+      <div class="gam" style="display: inline-block;">
+        <h2>DES335 - Role-Playing Game Design </h2>
+        <h5>Summer 2022 [May 2022 - August 2022]</h5>
+        <br>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/TOTIGHBAT.jpg" alt="TOTIGHBAT" style="height:200px; max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity"> &nbsp;
+        </div>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/TOTIGHBAT1.jpg" alt="TOTIGHBAT"
+            style="height:200px; max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          &nbsp;
+        </div>
+        <div class="container1" style="float:left;">
+          <img src="img/DESPROJ/TOTIGHBAT2.jpg" alt="TOTIGHBAT"
+            style="height:200px; max-width:100%;cursor:pointer" onclick="onClick(this)"
+            class="modal-hover-opacity">&nbsp;
+        </div>
+        <!-- The Modal -->
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <div class="modal-content">
+            <img id="img01" style="max-width:100%">
+          </div>
+        </div>
+        <br>
+        <p style="clear: both;"><u>Goal:</u><br> Apply role-playing game design principles and elements to create
+          different
+          games <br>
+          Analyse, develop and prototype core mechanics system, character creation,
+          character advancement, equipment variety, skill systems, world design, conflict
+          resolution, and adventure development</p>
+        <p> <b>Title:[THAT “ONE” TIME I GOT HIT BY A TRUCK?!]</b></p>
+        <p><u>Done by:</u> Team Super Idol <br>
+        <p><u>Team Size:</u> 4 <br>
+          <p><u>Genre:</u> Rogue-like ARPG <br>
+        <p><u>Overview:</u><br>
+          You are Hiro, an average office man by day and lead guitarist of a heavy metal band by night. <br>
+          One day, while trying out a new song, it accidentally summoned an unknown entity known as Truck-kun. <br>
+          Without much explanation from Truck-kun, he says he needs your help, smacks you across the face, and the next
+          moment you realise you’re transported to Isekai world.
+        </p>
+        <p><u>Software/Hardware used:</u> <br> Unity Engine
+          <br>
+      </div>
+      <!-- End of GAM200/250 -->
+     <h1>More to update...</h1>
+    </div>
+  </div>
+  <div class="main" id="contactme">
+    <h2>Contact Me</h2>
+    <h5>Feel free to drop a message on any of my socials</h5>
+    <div class="center">
+
+      <a href="mailto: zhang.hongyao@hotmail.com" target="_blank"><span><img src="img/icons/email.png"
+            style="width: 50px;"></span></a> &nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/hongyao-zhang-479281225/" target="_blank"><span><img
+            src="img/icons/linkedin.png" style="width: 42px;"></span></a>
+    </div>
+  </div>
+  <footer> <small>Copyright &copy; 2023, Zhang Hongyao. All Rights Reserved <br>
+      <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik -
+        Flaticon</a> <br>
+      <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by
+        riajulislam - Flaticon</a></small></footer>
+
+  <script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
